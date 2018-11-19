@@ -1,0 +1,22 @@
+{
+    "name": "towersystems/resource",
+    "type": "library",
+    "description": "Handle Resources in an Application",
+    "authors": [
+        {
+            "name": "kane",
+            "email": "kane.borthwick@hotmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "^7.1",
+        "doctrine/orm": "^2.5",
+        "doctrine/common": "^2.6",
+        "winzou/state-machine": "~0.1"
+    },
+    "autoload": {
+        "psr-4": { "Towersystems\\Resource\\": "" }
+    }
+}
